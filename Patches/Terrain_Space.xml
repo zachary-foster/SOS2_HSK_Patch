@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- SoilShip -->
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/TerrainDef[defName="SoilShip"]/costList</xpath>
+      <value>
+        <costList>
+          <Dirt>40</Dirt>
+          <CrushedStone>20</CrushedStone>
+          <SoftClay>20</SoftClay>
+          <Peat>20</Peat>
+          <SandResource>20</SandResource>
+          <Fertilizer>20</Fertilizer>
+        </costList>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TerrainDef[defName="SoilShip"]/statBases</xpath>
+      <value>
+        <WorkToBuild>2000</WorkToBuild>
+      </value>
+    </match>
+  </Operation>
+
+
+</Patch>
