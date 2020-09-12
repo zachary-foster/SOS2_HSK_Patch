@@ -147,6 +147,15 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHeatConduit"]/constructEffect</xpath>
+    </match>
+  </Operation>
+
 
   <!-- ShipHeatsink -->
 
@@ -178,6 +187,15 @@
         </stuffCategories>
         <costStuffCount>80</costStuffCount>
       </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHeatsink"]/constructEffect</xpath>
     </match>
   </Operation>
 
@@ -213,6 +231,15 @@
         </stuffCategories>
         <costStuffCount>60</costStuffCount>
       </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipCombatShieldGenerator"]/constructEffect</xpath>
     </match>
   </Operation>
 

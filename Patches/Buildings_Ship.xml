@@ -522,6 +522,15 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHullTile"]/constructEffect</xpath>
+    </match>
+  </Operation>
+
 
 <!-- ShipHardpointSmall -->
 
@@ -560,6 +569,15 @@
     </mods>
     <match Class="PatchOperationRemove">
       <xpath>/Defs/ThingDef[defName="ShipHardpointSmall"]/designatorDropdown</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHardpointSmall"]/constructEffect</xpath>
     </match>
   </Operation>
 
@@ -604,6 +622,15 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHardpoint"]/constructEffect</xpath>
+    </match>
+  </Operation>
+
 
 <!-- ShipHardpointExtraMedium -->
 
@@ -645,6 +672,15 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHardpointExtraMedium"]/constructEffect</xpath>
+    </match>
+  </Operation>
+
 
 <!-- ShipHardpointLarge -->
 
@@ -683,6 +719,15 @@
     </mods>
     <match Class="PatchOperationRemove">
       <xpath>/Defs/ThingDef[defName="ShipHardpointLarge"]/designatorDropdown</xpath>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipHardpointLarge"]/constructEffect</xpath>
     </match>
   </Operation>
 
@@ -1013,6 +1058,15 @@
     </match>
   </Operation>
 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipCapacitor"]/constructEffect</xpath>
+    </match>
+  </Operation>
+
 
 <!-- ShipCapacitorSmall -->
 
@@ -1047,6 +1101,15 @@
         </stuffCategories>
         <costStuffCount>60</costStuffCount>
       </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Save Our Ship 2</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="ShipCapacitorSmall"]/constructEffect</xpath>
     </match>
   </Operation>
 
